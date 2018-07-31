@@ -1,0 +1,45 @@
+2018-07-31 19:30:08,526 [MainThread  ] [INFO ]  App ready
+
+2018-07-31 19:30:08,527 [MainThread  ] [INFO ]  Training smalltalk in app start up
+2018-07-31 19:30:09,262 [MainThread  ] [INFO ]  App ready
+
+2018-07-31 19:30:09,262 [MainThread  ] [INFO ]  Training smalltalk in app start up
+2018-07-31 19:30:18,306 [Thread-3    ] [INFO ]  User input -->yup what else
+2018-07-31 19:30:18,306 [Thread-3    ] [INFO ]  Smalltalk input : yup what else
+2018-07-31 19:30:18,579 [Thread-3    ] [INFO ]  Received input statement: yup what else
+2018-07-31 19:30:18,582 [Thread-3    ] [INFO ]  "yup what else" is not a known statement
+2018-07-31 19:30:18,585 [Thread-3    ] [INFO ]  Not processing the statement using BestMatch
+2018-07-31 19:30:18,588 [Thread-3    ] [INFO ]  Not processing the statement using LowConfidenceAdapter
+2018-07-31 19:30:18,590 [Thread-3    ] [INFO ]  NoKnowledgeAdapter selected "yup what else" as a response with a confidence of 1
+2018-07-31 19:30:18,596 [Thread-3    ] [INFO ]  Smalltalk response : yup what else
+2018-07-31 19:30:18,597 [Thread-3    ] [INFO ]  
+Response time --->0.29039525985717773
+2018-07-31 19:30:18,597 [Thread-3    ] [INFO ]  yup what else
+2018-07-31 19:31:30,195 [MainThread  ] [INFO ]  App ready
+
+2018-07-31 19:31:30,195 [MainThread  ] [INFO ]  Training smalltalk in app start up
+2018-07-31 19:31:30,651 [MainThread  ] [INFO ]  App ready
+
+2018-07-31 19:31:30,651 [MainThread  ] [INFO ]  Training smalltalk in app start up
+2018-07-31 19:31:34,493 [Thread-1    ] [INFO ]  User input -->yup what else
+2018-07-31 19:31:34,494 [Thread-1    ] [INFO ]  Smalltalk input : yup what else
+2018-07-31 19:31:34,640 [Thread-1    ] [INFO ]  Received input statement: yup what else
+2018-07-31 19:31:34,644 [Thread-1    ] [INFO ]  "yup what else" is not a known statement
+2018-07-31 19:31:34,650 [Thread-1    ] [INFO ]  Not processing the statement using BestMatch
+2018-07-31 19:31:34,653 [Thread-1    ] [INFO ]  Not processing the statement using LowConfidenceAdapter
+2018-07-31 19:31:34,657 [Thread-1    ] [INFO ]  NoKnowledgeAdapter selected "yup what else" as a response with a confidence of 1
+2018-07-31 19:31:34,664 [Thread-1    ] [INFO ]  Smalltalk response : yup what else
+2018-07-31 19:31:34,664 [Thread-1    ] [INFO ]  
+Response time --->0.1703956127166748
+2018-07-31 19:31:34,664 [Thread-1    ] [INFO ]  yup what else
+2018-07-31 19:31:48,691 [Thread-4    ] [INFO ]  User input -->hey there
+2018-07-31 19:31:48,692 [Thread-4    ] [INFO ]  Smalltalk input : hey there
+2018-07-31 19:31:48,692 [Thread-4    ] [INFO ]  Received input statement: hey there
+2018-07-31 19:31:48,725 [Thread-4    ] [INFO ]  "hey there" is not a known statement
+2018-07-31 19:31:48,747 [Thread-4    ] [INFO ]  Not processing the statement using BestMatch
+2018-07-31 19:31:48,770 [Thread-4    ] [INFO ]  Not processing the statement using LowConfidenceAdapter
+2018-07-31 19:31:48,792 [Thread-4    ] [INFO ]  NoKnowledgeAdapter selected "hey there" as a response with a confidence of 1
+2018-07-31 19:31:48,812 [Thread-4    ] [INFO ]  Smalltalk response : hey there
+2018-07-31 19:31:48,812 [Thread-4    ] [INFO ]  
+Response time --->0.12045168876647949
+2018-07-31 19:31:48,812 [Thread-4    ] [INFO ]  hey there
