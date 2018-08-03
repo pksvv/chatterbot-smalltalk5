@@ -1,4 +1,4 @@
-uri = "sqlite:///chatbot.db"
+uri = "sqlite:///db/chatbot.db"
 database = "chatbot"
 trainFile = "talk/chatbot.json"
 logpath = "."

@@ -11,24 +11,6 @@ class TalkConfig(AppConfig):
     name = 'talk'  
     smallTalk_Bot = None      
 
-   # Train chatterbot with JSON corpus 
-    def train_smalltalk():
-     logger.info ('Training smalltalk in app start up')
-     chatbot = ChatBot("SmallTalk_ChatBot",storage_adapter="chatterbot.storage.SQLStorageAdapter", database_uri= Parameters.uri)
-     chatbot.storage.drop()
-    
-     chatbot.storage.create()
-     logger.info ('Created chatbot database')
-     chatbot.set_trainer(ListTrainer)
-    
-     smallTalkFile = open(Parameters.trainFile, encoding='utf-8')    
-     smallTalks = json.load(smallTalkFile)
-     logger.info ('Training small talk')
-     for key, value in smallTalks.items():
-        for item in value:
-         logger.debug ('Created chatbot database')
-         chatbot.train(item)
-
     # Initialise chatterbot read only
     def start_SmallTalk_bot():
      TalkConfig.smallTalk_Bot = ChatBot("SmallTalk_ChatBot",storage_adapter="chatterbot.storage.SQLStorageAdapter", database_uri= Parameters.uri, read_only=True, logic_adapters=[
